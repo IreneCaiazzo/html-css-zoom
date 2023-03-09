@@ -1,3 +1,38 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+
+/* main */
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width:1430px;
+}
+
+.icon{
+    position: relative;
+    max-width: 200px;
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-tag{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: .3em;
+    position:absolute;
+    bottom: 0;
+    left: 0;
 }
