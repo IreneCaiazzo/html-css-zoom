@@ -8,6 +8,25 @@ html{
     background-color: black;
 }
 
+/* header */
+
+header{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.speaker-view, .enlarge{
+    background-color: rgba(73, 72, 72, 0.5);
+    max-width: max-content;
+    padding: .2em;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
 /* main */
 
 main .container{
