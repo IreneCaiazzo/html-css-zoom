@@ -24,6 +24,8 @@ header{
     padding: .2em;
     margin-right: 10px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -40,11 +42,11 @@ main .container{
 .icon{
     position: relative;
     max-width: 200px;
+    margin-bottom: 10px;
 }
 
 .image{
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .name-tag{
@@ -54,4 +56,60 @@ main .container{
     position:absolute;
     bottom: 0;
     left: 0;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(62, 61, 61);
+    color: white;
+    padding: 10px;
+    font-size: smaller;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-video{
+    display: flex;
+    align-items: center;
+}
+
+.mic, .video, .fa-chevron-up{
+    margin-right: 10px;
+}
+
+.central-icons{
+    display: flex;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.end-meeting{
+    background-color: grey;
+    color: red;
+    padding: 1.5em;
+    height: 100%;
+}
+
+.fa-solid, .bi{
+    height: 30px;
+}
+
+.audio-video>*, .central-icons>*{
+    /* display: flex;
+    flex-direction: column;          TODO: 
+    justify-self: center; */
+    margin-right: 5px;
+}
+
+i{
+    width: 20px;
+    display: flex;
+    justify-content: center;
 }
